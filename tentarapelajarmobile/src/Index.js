@@ -7,17 +7,19 @@ import Chat from './components/Chat';
 import Profile from './components/Profile';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
+import Login from './components/Login';
 
 class Index extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Header />
+        <Login />
+        {/* <Header />
         { this.props.scene === 'HOME' && <Home /> }
         { this.props.scene === 'PROFILE' && <Profile /> }
         { this.props.scene === 'CHAT' && <Chat/> }
         { this.props.scene === 'GALLERY' && <Gallery /> }
-        <Navigation />
+        <Navigation /> */}
       </View>
     );
   }
